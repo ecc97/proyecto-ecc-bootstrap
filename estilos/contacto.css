@@ -1,0 +1,94 @@
+div.content-contact{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  height: auto;
+  background-image: url('https://toppng.com/uploads/preview/night-city-street-city-lights-traffic-buildings-tokyo-japan-11570143614tqz3fc6ob1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(90,80,70);
+  background-blend-mode: soft-light;
+  background-attachment: scroll;
+  background-position: center;
+}
+div.contenido-cont{
+  width: 100%;
+  height: 100vh;
+  margin: 70px auto 10px;
+}
+section.seccion-contacto{
+  width: 100%;
+  height: auto;
+  padding: 20px 0 20px 0;
+}
+.mt-5 {
+  margin: 0 auto !important;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+section.seccion-contacto div.container.mt-5 h1{
+  margin: 0;
+  padding: 15px;
+}
+section.seccion-contacto div.formulario h4, p{
+  margin: 0;
+  text-align: center;
+  padding: 15px;
+}
+section.seccion-contacto div.container.mt-5 form button.btn.btn-primary {
+  margin: 5px;
+  cursor: pointer;
+}
+section.seccion-contacto div.container.mt-5 form button.btn.btn-primary:hover {
+  background: #0A0C2D;
+  color: white;
+}
+section.seccion-contacto div.formulario h4{
+  font-size: 30px;
+}
+section.seccion-contacto div.formulario form{
+  padding: 10px;
+}
+section.seccion-contacto div.formulario form label{
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+section.seccion-contacto div.formulario form input{
+  margin: 0 auto;
+  padding: 15px;
+  width: 94%;
+}
+section.seccion-contacto div.formulario form textarea{
+  width: 98%;
+  height: 115px;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+}
+section.seccion-contacto div.formulario form button{
+  width: 99%;
+  padding: 15px;
+  margin: 0 auto;
+  background: #0A0C2D;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  
+}
+section.seccion-contacto div.formulario form button:hover{
+  background: white;
+  color: #0A0C2D;
+}
+@media (max-width: 770px){
+  section.seccion-contacto div.container.mt-5 form input, textarea[placeholder]{
+    text-align: center;
+  }
+}
